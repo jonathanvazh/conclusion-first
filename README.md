@@ -1,6 +1,6 @@
 # El Principio de la Pirámide — guía de trabajo
 
-Guía de aplicación para estructurar argumentos ante audiencias senior: conclusión primero, SCQA, MECE y ocho casos aplicados al trabajo cotidiano de un área analítica. Disponible en español e inglés.
+Guía de aplicación para estructurar argumentos ante audiencias senior: conclusión primero, SCQA, MECE y ocho casos aplicados al trabajo cotidiano de un área de analítica del sector financiero. Disponible en español e inglés.
 
 **Sitio publicado:** https://jonathanvazh.github.io/guia-piramide/ · [English version](https://jonathanvazh.github.io/guia-piramide/en.html)
 
@@ -17,11 +17,11 @@ Guía de aplicación para estructurar argumentos ante audiencias senior: conclus
 | `guia.md` / `guide.md` | El texto completo en Markdown, para leer dentro de GitHub o reutilizar. |
 | `Guia-Principio-Piramide.pdf` / `Guide-Pyramid-Principle.pdf` | La guía completa en PDF. |
 | `Guia-Principio-Piramide.docx` / `Guide-Pyramid-Principle.docx` | Versión editable en Word. |
-| `Taller-Principio-Piramide.pptx` / `Workshop-Pyramid-Principle.pptx` | Deck de 17 láminas para facilitar el taller de 90 minutos de la sección 26, con notas del orador. |
+| `Taller-Principio-Piramide.pptx` / `Workshop-Pyramid-Principle.pptx` | Deck de 16 láminas para facilitar el taller de 90 minutos de la sección 26, con notas del orador. |
 
 ## Estructura de la guía
 
-**Parte I — El método.** Por qué la pirámide, sus tres reglas, MECE, el patrón SCQA, los dos caminos de construcción, los tres órdenes legítimos, el test del "¿y qué?", deducción e inducción, definición del problema, y cómo bajarlo a la página y a una presentación.
+**Parte I — El método.** Por qué la pirámide, sus tres reglas, MECE, el patrón SCQA, los dos caminos de construcción, los tres órdenes legítimos, el test del "¿y qué implica?", deducción e inducción, definición del problema, y cómo bajarlo a la página y a una presentación.
 
 **Parte II — Casos aplicados.** Ocho situaciones recurrentes, cada una con su estructura y un ejemplo trabajado: calidad de información cuando el dueño del dato es otro, conseguir una decisión en una organización centralizada, armar un business case, conversaciones difíciles hacia abajo y hacia arriba, estructurar un no, traspasar un proyecto, y explicar temas técnicos de forma aterrizada.
 
@@ -35,7 +35,7 @@ Todos los ejemplos son inventados. Las cifras, portafolios, modelos y situacione
 
 ## Editar
 
-El texto vive en el HTML: no hay plantillas ni proceso de compilación. Para cambios de texto edita `index.html` o `en.html` directamente, y actualiza el Markdown correspondiente para que las versiones no se separen. Para cambios de aspecto edita `assets/styles.css`; los colores están declarados como variables al inicio del archivo.
+**La fuente de verdad son `guia.md` y `guide.md`.** El sitio, el PDF, el Word y el deck se generan a partir de ellos; no se editan a mano. Para cambios de texto, edita el Markdown y vuelve a generar. Para cambios de aspecto del sitio edita `assets/styles.css`; los colores están declarados como variables al inicio del archivo.
 
 ## Licencia
 
