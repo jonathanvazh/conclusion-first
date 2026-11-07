@@ -35,7 +35,7 @@ Todos los ejemplos son inventados. Las cifras, portafolios, modelos y situacione
 
 ## Editar
 
-**La fuente de verdad son `guia.md` y `guide.md`.** El sitio, el PDF, el Word y el deck se generan a partir de ellos; no se editan a mano. Para cambios de texto, edita el Markdown y vuelve a generar. Para cambios de aspecto del sitio edita `assets/styles.css`; los colores están declarados como variables al inicio del archivo.
+**El texto completo vive en `guia.md` y `guide.md`.** Todo lo demás —el sitio, el PDF, el Word y el deck— se genera a partir de esos dos archivos, así que no se editan a mano: cualquier cambio hecho directamente sobre ellos se pierde en la siguiente generación. Para corregir texto, edita el Markdown y vuelve a generar. Para cambiar el aspecto del sitio edita `assets/styles.css`; los colores están declarados como variables al inicio del archivo.
 
 ## Licencia
 
