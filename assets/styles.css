@@ -427,3 +427,63 @@ body {
 .box--demo .list { margin: .2rem 0 .8rem; }
 .box--demo .list li { margin: 0 0 .35rem; }
 .box--demo .list--num li::marker { color: var(--gold); font-weight: 600; }
+
+/* ---------------------------------------------------- autoría y contacto */
+.hero__by {
+  font-family: var(--mono); font-size: .72rem; color: #8794AF;
+  margin: .5rem 0 0; letter-spacing: .02em;
+}
+.hero__by a { color: var(--gold); text-decoration-color: rgba(179,132,28,.45); }
+.hero__by a:hover { text-decoration-color: var(--gold); }
+
+.contact { background: var(--ink); color: #E3E8F1; padding: 3.4rem 1.5rem 3rem; }
+.contact__inner { max-width: 44rem; margin: 0 auto; }
+.contact__title {
+  font-family: var(--display); font-weight: 700; font-size: 1.5rem;
+  color: #fff; margin: 0 0 .5rem; letter-spacing: -.01em;
+}
+.contact__lead {
+  font-family: var(--body); font-size: .97rem; line-height: 1.6;
+  color: #A8B4CA; margin: 0 0 1.6rem; max-width: 38rem;
+}
+.contact__form {
+  display: grid; grid-template-columns: 1fr 1fr; gap: .9rem 1rem; margin: 0;
+}
+.contact__form .field { margin: 0; display: flex; flex-direction: column; gap: .32rem; }
+.contact__form .field--full,
+.contact__form .contact__note,
+.contact__form .contact__actions { grid-column: 1 / -1; }
+.contact__form label {
+  font-family: var(--display); font-weight: 500; font-size: .72rem;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--gold);
+}
+.contact__form input,
+.contact__form textarea {
+  font-family: var(--body); font-size: .95rem; color: #0D1526;
+  background: #F7F9FC; border: 1px solid #39455C; border-radius: 3px;
+  padding: .55rem .7rem; width: 100%;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.contact__form textarea { resize: vertical; min-height: 7.5rem; line-height: 1.5; }
+.contact__form input:focus,
+.contact__form textarea:focus {
+  outline: none; border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(179,132,28,.25);
+}
+.contact__note {
+  font-family: var(--body); font-size: .83rem; line-height: 1.55;
+  color: #8794AF; margin: .3rem 0 0; border-left: 2px solid #39455C;
+  padding-left: .75rem;
+}
+.contact__actions { margin: .4rem 0 0; }
+.contact__form .btn { border: none; cursor: pointer; font-size: .9rem; }
+
+.foot__by {
+  font-family: var(--mono); font-size: .72rem; margin: .6rem 0 0; color: #8794AF;
+}
+.foot__by a { color: inherit; text-decoration-color: rgba(179,132,28,.5); }
+
+@media (max-width: 640px) {
+  .contact__form { grid-template-columns: 1fr; }
+  .contact { padding: 2.6rem 1.1rem 2.4rem; }
+}

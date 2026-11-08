@@ -1,8 +1,8 @@
-# El Principio de la Pirámide
+# La conclusión primero
 
 _Guía de trabajo para estructurar argumentos ante audiencias senior_
 
-Método de Barbara Minto · Guía de aplicación con ejemplos de un área de analítica del sector financiero · Agosto de 2026
+Guía de aplicación del principio de la pirámide de Barbara Minto · Ejemplos de un área de analítica del sector financiero · Noviembre de 2026
 
 ---
 
@@ -1004,6 +1004,8 @@ Este documento es material original: el texto, los ejemplos y los casos fueron e
 
 La estructura piramidal, el patrón SCQA, el criterio MECE, la distinción entre orden de proceso, estructural y de grado, y el marco de definición del problema provienen de The Pyramid Principle: Logic in Writing and Thinking, de Barbara Minto (Pearson / Financial Times). Quien quiera la formulación original y sus ejemplos debe acudir al libro; esta guía no lo sustituye.
 
+Esta guía no está afiliada a Barbara Minto ni a Minto International, y no es material de capacitación certificado.
+
 ### Otras fuentes
 
 | Idea | Origen |
@@ -1018,4 +1020,12 @@ La estructura piramidal, el patrón SCQA, el criterio MECE, la distinción entre
 Todos los ejemplos son inventados. Las cifras, los portafolios, los modelos, los acreditados y las situaciones descritas no corresponden a ninguna institución concreta, y cualquier parecido con un caso real es consecuencia de que estos problemas se repiten en todas partes.
 
 Esta guía se comparte sin fines comerciales para uso de equipos. Si alguien la encuentra útil, el mejor gesto hacia los autores citados es comprar sus libros.
+
+### Autoría y comentarios
+
+Esta guía fue preparada por Jonathan Vázquez Hernández. Versión 1.0, noviembre de 2026.
+
+Los comentarios, las correcciones y las sugerencias son bienvenidos a través del formulario de contacto del sitio: `https://jonathanvazh.github.io/conclusion-first/#contacto`
+
+Conviene no incluir en esos mensajes información interna o confidencial de ninguna organización.
 

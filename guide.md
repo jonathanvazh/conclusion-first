@@ -1,8 +1,8 @@
-# The Pyramid Principle
+# Conclusion First
 
 _A working guide to structuring arguments for senior audiences_
 
-Barbara Minto's method · An applied guide with examples from an analytics function in financial services · August 2026
+An applied guide to Barbara Minto's pyramid principle · Examples from an analytics function in financial services · November 2026
 
 ---
 
@@ -1000,6 +1000,8 @@ This document is original material: the text, the examples and the cases were wr
 
 The pyramid structure, the SCQA pattern, the MECE standard, the distinction between time, structural and degree order, and the problem-definition framework all come from The Pyramid Principle: Logic in Writing and Thinking, by Barbara Minto (Pearson / Financial Times). Anyone who wants the original formulation and its examples should go to the book; this guide does not replace it.
 
+This guide is not affiliated with Barbara Minto or Minto International, and it is not certified training material.
+
 ### Other sources
 
 | Idea | Origin |
@@ -1014,4 +1016,12 @@ The pyramid structure, the SCQA pattern, the MECE standard, the distinction betw
 All examples are invented. The figures, portfolios, models, borrowers and situations described do not correspond to any specific institution, and any resemblance to a real case follows from the fact that these problems recur everywhere.
 
 This guide is shared non-commercially for team use. If you find it useful, the best gesture towards the authors cited is to buy their books.
+
+### Authorship and comments
+
+This guide was prepared by Jonathan Vázquez Hernández. Version 1.0, November 2026.
+
+Comments, corrections and suggestions are welcome through the contact form on the site: `https://jonathanvazh.github.io/conclusion-first/en.html#contact`
+
+Please do not include internal or confidential information from any organisation in those messages.
 

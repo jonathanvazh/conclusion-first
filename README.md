@@ -1,8 +1,10 @@
-# El Principio de la Pirámide — guía de trabajo
+# La conclusión primero
 
-Guía de aplicación para estructurar argumentos ante audiencias senior: conclusión primero, SCQA, MECE y ocho casos aplicados al trabajo cotidiano de un área de analítica del sector financiero. Disponible en español e inglés.
+Guía de aplicación del principio de la pirámide de Barbara Minto, para estructurar argumentos ante audiencias senior: conclusión primero, SCQA, MECE y ocho casos aplicados al trabajo cotidiano de un área de analítica del sector financiero. Disponible en español e inglés.
 
-**Sitio publicado:** https://jonathanvazh.github.io/guia-piramide/ · [English version](https://jonathanvazh.github.io/guia-piramide/en.html)
+**Sitio publicado:** https://jonathanvazh.github.io/conclusion-first/ · [English version](https://jonathanvazh.github.io/conclusion-first/en.html)
+
+Preparada por **Jonathan Vázquez Hernández** · v1.0, noviembre de 2026 · [Comentarios y contacto](https://jonathanvazh.github.io/conclusion-first/#contacto)
 
 ---
 
@@ -15,9 +17,9 @@ Guía de aplicación para estructurar argumentos ante audiencias senior: conclus
 | `assets/styles.css` | Los estilos del sitio. |
 | `assets/app.js` | El menú de contenido en móvil y el resaltado de la sección que estás leyendo. |
 | `guia.md` / `guide.md` | El texto completo en Markdown, para leer dentro de GitHub o reutilizar. |
-| `Guia-Principio-Piramide.pdf` / `Guide-Pyramid-Principle.pdf` | La guía completa en PDF. |
-| `Guia-Principio-Piramide.docx` / `Guide-Pyramid-Principle.docx` | Versión editable en Word. |
-| `Taller-Principio-Piramide.pptx` / `Workshop-Pyramid-Principle.pptx` | Deck de 16 láminas para facilitar el taller de 90 minutos de la sección 26, con notas del orador. |
+| `La-conclusion-primero.pdf` / `Conclusion-First.pdf` | La guía completa en PDF. |
+| `La-conclusion-primero.docx` / `Conclusion-First.docx` | Versión editable en Word. |
+| `Taller-conclusion-primero.pptx` / `Workshop-Conclusion-First.pptx` | Deck de 16 láminas para facilitar el taller de 90 minutos de la sección 26, con notas del orador. |
 
 ## Estructura de la guía
 
@@ -30,6 +32,8 @@ Guía de aplicación para estructurar argumentos ante audiencias senior: conclus
 ## Atribución
 
 El método —estructura piramidal, SCQA, MECE, los órdenes de agrupamiento y el marco de definición del problema— es de **Barbara Minto**, *The Pyramid Principle: Logic in Writing and Thinking*. Esta guía no lo reproduce ni lo sustituye: es material original de aplicación, con texto y ejemplos propios. La sección 29 acredita todas las fuentes, incluidas *Difficult Conversations* (Stone, Patton y Heen), *Good Strategy Bad Strategy* (Rumelt) y *The Coaching Habit* (Bungay Stanier).
+
+Esta guía no está afiliada a Barbara Minto ni a Minto International, y no es material de capacitación certificado.
 
 Todos los ejemplos son inventados. Las cifras, portafolios, modelos y situaciones no corresponden a ninguna institución concreta.
 
