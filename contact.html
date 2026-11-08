@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Conclusion First</title>
+<meta name="description" content="If you have comments, corrections or suggestions about the guide, or would like to get in touch for any other reason, this form reaches my inbox directly.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="cbody">
+
+<div class="cpage">
+  <nav class="cbar">
+    <a class="cbar__back" href="en.html">&larr; Back to the guide</a>
+    <a class="cbar__lang" href="contacto.html">Español</a>
+  </nav>
+
+  <main class="cmain">
+    <p class="ceyebrow">Conclusion First</p>
+    <h1 class="ctitle">Contact</h1>
+    <p class="clead" id="clead">If you have comments, corrections or suggestions about the guide, or would like to get in touch for any other reason, this form reaches my inbox directly.</p>
+
+    <div class="cok" id="cok" hidden>
+      <p class="cok__title">Thank you. Your message came through.</p>
+      <p class="cok__sub">If you left an email address, I will reply as soon as I can.</p>
+    </div>
+
+    <form class="cform" id="cform" action="https://formspree.io/f/xbggvjao" method="POST">
+      <input type="hidden" name="_next" value="https://jonathanvazh.github.io/conclusion-first/contact.html?sent=1">
+      <p class="cfield"><label for="k-nombre">Name</label><input id="k-nombre" name="nombre" type="text" required></p><p class="cfield"><label for="k-email">Email</label><input id="k-email" name="email" type="email" required></p><p class="cfield"><label for="k-_subject">Subject</label><input id="k-_subject" name="_subject" type="text" required></p>
+      <p class="cfield">
+        <label for="k-msg">Message</label>
+        <textarea id="k-msg" name="mensaje" rows="7" required></textarea>
+      </p>
+      <p class="cnote">Please do not include internal or confidential information from any organisation. Messages are processed through Formspree, a third-party service, and arrive at a personal email account.</p>
+      <p class="cactions"><button class="btn" type="submit">Send message</button></p>
+    </form>
+  </main>
+
+  <footer class="cfoot">
+    <p>Prepared by <a href="https://www.linkedin.com/in/jonathan-vazquez-hernandez" rel="author noopener" target="_blank">Jonathan Vázquez Hernández</a> · v1.0, November 2026</p>
+  </footer>
+</div>
+
+<script>
+  if (new URLSearchParams(location.search).has('sent')) {
+    document.getElementById('cok').hidden = false;
+    document.getElementById('cform').hidden = true;
+    document.getElementById('clead').hidden = true;
+    history.replaceState(null, '', location.pathname);
+  }
+</script>
+</body>
+</html>

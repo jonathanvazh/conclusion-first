@@ -1021,7 +1021,7 @@ This guide is shared non-commercially for team use. If you find it useful, the b
 
 This guide was prepared by Jonathan Vázquez Hernández. Version 1.0, November 2026.
 
-Comments, corrections and suggestions are welcome through the contact form on the site: `https://jonathanvazh.github.io/conclusion-first/en.html#contact`
+Comments, corrections and suggestions are welcome through the contact form on the site: `https://jonathanvazh.github.io/conclusion-first/contact.html`
 
 Please do not include internal or confidential information from any organisation in those messages.
 

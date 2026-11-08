@@ -1025,7 +1025,7 @@ Esta guía se comparte sin fines comerciales para uso de equipos. Si alguien la 
 
 Esta guía fue preparada por Jonathan Vázquez Hernández. Versión 1.0, noviembre de 2026.
 
-Los comentarios, las correcciones y las sugerencias son bienvenidos a través del formulario de contacto del sitio: `https://jonathanvazh.github.io/conclusion-first/#contacto`
+Los comentarios, las correcciones y las sugerencias son bienvenidos a través del formulario de contacto del sitio: `https://jonathanvazh.github.io/conclusion-first/contacto.html`
 
 Conviene no incluir en esos mensajes información interna o confidencial de ninguna organización.
 

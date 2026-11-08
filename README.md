@@ -4,7 +4,7 @@ Guía de aplicación del principio de la pirámide de Barbara Minto, para estruc
 
 **Sitio publicado:** https://jonathanvazh.github.io/conclusion-first/ · [English version](https://jonathanvazh.github.io/conclusion-first/en.html)
 
-Preparada por **Jonathan Vázquez Hernández** · v1.0, noviembre de 2026 · [Comentarios y contacto](https://jonathanvazh.github.io/conclusion-first/#contacto)
+Preparada por **Jonathan Vázquez Hernández** · v1.0, noviembre de 2026 · [Comentarios y contacto](https://jonathanvazh.github.io/conclusion-first/contacto.html)
 
 ---
 
@@ -14,6 +14,7 @@ Preparada por **Jonathan Vázquez Hernández** · v1.0, noviembre de 2026 · [Co
 |---|---|
 | `index.html` | El sitio en español, con navegación por secciones. |
 | `en.html` | El sitio en inglés. Los dos se enlazan entre sí desde la portada. |
+| `contacto.html` / `contact.html` | La página de contacto, con el formulario que llega al correo del autor. |
 | `assets/styles.css` | Los estilos del sitio. |
 | `assets/app.js` | El menú de contenido en móvil y el resaltado de la sección que estás leyendo. |
 | `guia.md` / `guide.md` | El texto completo en Markdown, para leer dentro de GitHub o reutilizar. |
