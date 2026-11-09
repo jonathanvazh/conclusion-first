@@ -42,6 +42,8 @@ Todos los ejemplos son inventados. Las cifras, portafolios, modelos y situacione
 
 **El texto completo vive en `guia.md` y `guide.md`.** Todo lo demás —el sitio, el PDF, el Word y el deck— se genera a partir de esos dos archivos, así que no se editan a mano: cualquier cambio hecho directamente sobre ellos se pierde en la siguiente generación. Para corregir texto, edita el Markdown y vuelve a generar. Para cambiar el aspecto del sitio edita `assets/styles.css`; los colores están declarados como variables al inicio del archivo.
 
+El formulario de contacto se envía por JavaScript contra Formspree y muestra la confirmación dentro de la misma página. Sin JavaScript sigue funcionando como envío normal.
+
 ## Licencia
 
 Texto bajo [CC BY 4.0](LICENSE): uso libre, incluido el comercial, con atribución. La licencia cubre este texto, no las obras citadas.

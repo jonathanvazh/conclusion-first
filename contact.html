@@ -29,8 +29,12 @@
       <p class="cok__sub">If you left an email address, I will reply as soon as I can.</p>
     </div>
 
+    <div class="cerr" id="cerr" hidden>
+      <p class="cerr__title">The message could not be sent.</p>
+      <p class="cerr__sub">Please try again in a moment, or reach me on LinkedIn.</p>
+    </div>
+
     <form class="cform" id="cform" action="https://formspree.io/f/xbggvjao" method="POST">
-      <input type="hidden" name="_next" value="https://jonathanvazh.github.io/conclusion-first/contact.html?sent=1">
       <p class="cfield"><label for="k-nombre">Name</label><input id="k-nombre" name="nombre" type="text" required></p><p class="cfield"><label for="k-email">Email</label><input id="k-email" name="email" type="email" required></p><p class="cfield"><label for="k-_subject">Subject</label><input id="k-_subject" name="_subject" type="text" required></p>
       <p class="cfield">
         <label for="k-msg">Message</label>
@@ -47,12 +51,35 @@
 </div>
 
 <script>
-  if (new URLSearchParams(location.search).has('sent')) {
-    document.getElementById('cok').hidden = false;
-    document.getElementById('cform').hidden = true;
-    document.getElementById('clead').hidden = true;
-    history.replaceState(null, '', location.pathname);
-  }
+  // El reenvío a una página propia es de pago en Formspree, así que el envío
+  // va por fetch y la confirmación se muestra aquí mismo. Sin JavaScript, el
+  // formulario sigue funcionando como envío normal.
+  (function () {
+    var form = document.getElementById('cform');
+    var btn  = form.querySelector('button[type="submit"]');
+    var send = btn.textContent;
+    form.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      document.getElementById('cerr').hidden = true;
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function (res) {
+        if (!res.ok) throw new Error(res.status);
+        form.hidden = true;
+        document.getElementById('clead').hidden = true;
+        document.getElementById('cok').hidden = false;
+      }).catch(function () {
+        document.getElementById('cerr').hidden = false;
+      }).then(function () {
+        btn.disabled = false;
+        btn.textContent = send;
+      });
+    });
+  })();
 </script>
 </body>
 </html>

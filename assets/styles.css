@@ -543,3 +543,13 @@ body {
   .ctitle { font-size: 1.75rem; }
   .cpage { padding: 1.2rem 1.1rem 2.6rem; }
 }
+
+.cerr {
+  border-left: 3px solid var(--weak); background: #fff;
+  padding: 1.1rem 1.2rem; margin: 0 0 1.5rem;
+}
+.cerr__title {
+  font-family: var(--display); font-weight: 700; font-size: 1.05rem;
+  color: var(--weak); margin: 0 0 .3rem;
+}
+.cerr__sub { font-family: var(--body); font-size: .92rem; color: #4A566E; margin: 0; }
